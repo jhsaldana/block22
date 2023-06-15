@@ -1,0 +1,87 @@
+/* Styles for the party container */
+#party-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Styles for the party element */
+  .party {
+    position: relative;
+    background-color: #679645;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .party h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .party p {
+    margin: 10px 0;
+    
+  }
+  
+  .party .details-button {
+    background-color: #d8d815;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .party .delete-button {
+    background-color: #492393;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the party details element */
+  .party-details {
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .party-details h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .party-details p {
+    margin: 10px 0;
+  }
+  
+  .party-details ul {
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .party-details li {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+  
+  .party-details .close-button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
